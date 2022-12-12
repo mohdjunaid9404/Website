@@ -32,6 +32,22 @@ const useStyles = makeStyles((theme)=>({
         color: Theme.colors.base2,
     },
 
+    AvatarCont: {
+        display: "flex",
+        flexFlow: "row",
+        justifyContent: "center",
+        alignItems: "center",
+    },
+
+    avatar: {
+        backgroundColor: Theme.colors.base2,
+        color: Theme.colors.primary,
+    },
+
+    MediaText: {
+        color: Theme.colors.base2,
+    }
+
 
 }));
 export default useStyles;

@@ -6,7 +6,7 @@ const Navbar = () => {
     const classes = useStyles();
     
     const navlinks=[
-        {label:"Home", id:"Home"},
+        {label:"Home1", id:"Home1"},
         {label:"About", id:"About"},
         {label:"Contact", id:"Contact"},
     ];
@@ -22,7 +22,7 @@ const Navbar = () => {
             {navlinks.map((item, i) => (      
                 <Button key={i} className={classes.navlinks}>{item.label}</Button>           
             ))}
-        </Box>
+            </Box>
     </Box>
     <Box component={Hidden} smUp>
         <IconButton color="inherit" onClick={()=> console.log("Menu Click")}>

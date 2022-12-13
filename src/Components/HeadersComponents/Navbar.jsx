@@ -6,8 +6,8 @@ const Navbar = () => {
     const classes = useStyles();
     
     const navlinks=[
-        {label:"Home1", id:"Home1"},
         {label:"About", id:"About"},
+        {label:"portfolio", id:"portfolio"},
         {label:"Contact", id:"Contact"},
     ];
     return(

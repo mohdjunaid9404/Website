@@ -10,10 +10,10 @@ import AlbumIcon from '@material-ui/icons/Album';;
 const AboutUs = () => {
     const classes = useStyles(); 
     const CardMediaData=[
-        {title:"Web Developer",description: "I love my india I love my india", icon: <AppleIcon />},
-        {title:"Marketing",description: "I love my india I love my india", icon: <ApartmentIcon />},
-        {title:"Tools",description: "I love my india I love my india", icon: <AirplayIcon />},
-        {title:"Mobile",description: "I love my india I love my india", icon: <AlbumIcon />},
+        {title:"Web Developer",description: "I love my india I love my india I love my india I love my india", icon: <AppleIcon />},
+        {title:"Marketing",description: "I love my india I love my india I love my india I love my india", icon: <ApartmentIcon />},
+        {title:"Tools",description: "I love my india I love my india I love my india I love my india", icon: <AirplayIcon />},
+        {title:"Mobile",description: "I love my india I love my india I love my india I love my india", icon: <AlbumIcon />},
     ]
 
     return(

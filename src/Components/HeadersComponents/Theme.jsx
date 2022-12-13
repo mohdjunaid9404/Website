@@ -3,7 +3,7 @@ const Theme = {
         base1: "#1e464a",
         base2:"#fff",
         primary: "#0097a7",
-        primary1:"#1e464a",
+        primary1:"#143438",
     },
 }
 export default Theme;

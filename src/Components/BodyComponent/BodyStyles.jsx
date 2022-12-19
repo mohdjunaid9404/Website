@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme)=>({
 
     responsiveImg:{
         width:"100%",
-        height:"auto",
+        height:"100%",
     },
 
     sectionHeadingCount:{
@@ -86,5 +86,29 @@ const useStyles = makeStyles((theme)=>({
             fontSize: "1.2rem",
         },
     },
+
+    submitBtn: {
+        backgroundColor: Theme.colors.primary,
+        color: Theme.colors.base2,
+        "&:hover":{
+            backgroundColor: Theme.colors.primary1,
+
+        },
+    },
+
+    footerContainer: {
+        backgroundColor: Theme.colors.primary1,
+        color: Theme.colors.base2,
+        padding: theme.spacing(2),
+        position: "relative",
+    },
+    
+    IconButton: {
+        position: "absolute",
+        right: 5,
+        top: 15,
+        color: Theme.colors.base2,
+        backgroundColor: Theme.colors.primary,
+    }
 }));
 export default useStyles;

@@ -31,7 +31,7 @@ const AboutUs = () => {
                     {RenderSectionHeading({
                         smallText:"AboutMe", 
                         heading:"Do Hard Work Please...", 
-                        description:" Hello My name is junaid i m from lucknow i have completed bca from ignou university"})}
+                        description:" Hello My name is junaid i m from lucknow Now i m designing website"})}
                         <br/>
                         {/* {CardMedia({
                         label:"label1",
